@@ -66,6 +66,13 @@ func (d Doener) String() string {
 }
 
 /*
+	WithAll returns a Doener with the first standard filling, all toppings and sauces
+*/
+func WithAll() *Doener {
+	return &Doener{Fillings[0], Sauces, Toppings}
+}
+
+/*
 	Random returns a randomly selected Döner Kebab.
 	One filling protein, and any combination of toppings and sauces is chosen.
 */

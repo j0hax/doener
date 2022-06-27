@@ -1,5 +1,7 @@
 # doener
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/j0hax/doener)](https://goreportcard.com/report/github.com/j0hax/doener)
+
 Have you ever wanted to represent Germany's favorite street food as a data structure? Here's your chance.
 
 ## Usage
